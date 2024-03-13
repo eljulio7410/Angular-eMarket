@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  isDisabled = false;
-  fileName = 'LOGO.png'
+  counter = 0;
+
+  increaseCounter(): void{
+    this.counter++;
+  }
 }
